@@ -236,9 +236,7 @@
           
       <script type="text/javascript">
         $(document).ready(function() {
-          mixpanel.track(
-    "Open website"
-);
+          
           function getQueryVariable(variable) {
             var query = window.location.search;
             var vars = query.split("&");
@@ -311,7 +309,7 @@
           <p style="text-align:left; font-size:18px;">Vous allez recevoir par mail votre confirmation d'inscription et les instructions pour vous connecter à notre webinar.</p>
           <p style="text-align:left;font-size:18px;">Happy marketing !</p>
         </div>
-            <form id="register_form" action="#register=ok">
+            <form id="register_form" action="register=ok">
                 <div style="font-weight:500!important;font-size:24px!important;font-family: 'Raleway', sans-serif !important;color:#555;">Réservez votre place</div>
               <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                 <input class="mdl-textfield__input" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email">
